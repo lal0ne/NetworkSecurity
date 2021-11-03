@@ -44,11 +44,11 @@ HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\KnownDLLs
 
 工具：[procexp](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer)
 
-![image-20211027111626735](images\image-20211027111626735.png)
+![image-20211027111626735](./images/image-20211027111626735.png)
 
 选择需要检测的程序
 
-![image-20211027111939989](images\image-20211027111939989.png)
+![image-20211027111939989](./images/image-20211027111939989.png)
 
 # 查找可利用dll
 
@@ -66,11 +66,11 @@ LoadLibraryEx(“DLL绝对路径”, NULL, LOAD_WITH_ALTERED_SEARCH_PATH);
 
 ## 方法一（劫持应用中没有的dll）
 
-![image-20211028144445905](images\image-20211028144445905.png)
+![image-20211028144445905](./images/image-20211028144445905.png)
 
 ## 方法二（劫持应用中存在的dll）
 
-![image-20211028145448471](images\image-20211028145448471.png)
+![image-20211028145448471](./images/image-20211028145448471.png)
 
 # 制作恶意dll
 
@@ -78,7 +78,7 @@ LoadLibraryEx(“DLL绝对路径”, NULL, LOAD_WITH_ALTERED_SEARCH_PATH);
 
 vs创建动态DLL
 
-![image-20211028160829099](images\image-20211028160829099.png)
+![image-20211028160829099](./images/image-20211028160829099.png)
 
 代码
 
@@ -118,7 +118,7 @@ BOOL APIENTRY DllMain( HMODULE hModule,
 
 编译成dll文件
 
-![image-20211028161702077](images\image-20211028161702077.png)
+![image-20211028161702077](./images/image-20211028161702077.png)
 
 ## 针对劫持应用中存在的dll
 
@@ -126,7 +126,7 @@ BOOL APIENTRY DllMain( HMODULE hModule,
 
 ### 直接转发
 
-![image-20211028172237718](images\image-20211028172237718.png)
+![image-20211028172237718](./images/image-20211028172237718.png)
 
 vs创建动态DLL
 
@@ -160,7 +160,7 @@ BOOL WINAPI DllMain(HMODULE hModule, DWORD dwReason, PVOID pvReserved)
 
 ### 即时调用
 
-![image-20211029094519999](images\image-20211029094519999.png)
+![image-20211029094519999](./images/image-20211029094519999.png)
 
 vs创建动态DLL
 
