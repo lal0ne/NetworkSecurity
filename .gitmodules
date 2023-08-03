@@ -7,3 +7,6 @@
 [submodule "Windows/SweetPotato"]
 	path = Windows/SweetPotato
 	url = https://github.com/uknowsec/SweetPotato.git
+[submodule "Windows/windows-kernel-exploits"]
+	path = Windows/windows-kernel-exploits
+	url = https://github.com/SecWiki/windows-kernel-exploits.git
