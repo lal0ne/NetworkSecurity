@@ -1,3 +1,9 @@
 [submodule "Linux/linux-exploit-suggester"]
 	path = Linux/linux-exploit-suggester
 	url = https://github.com/The-Z-Labs/linux-exploit-suggester.git
+[submodule "MSSQL/MSSQL_SQL_BYPASS_WIKI"]
+	path = MSSQL/MSSQL_SQL_BYPASS_WIKI
+	url = https://github.com/aleenzz/MSSQL_SQL_BYPASS_WIKI.git
+[submodule "Windows/SweetPotato"]
+	path = Windows/SweetPotato
+	url = https://github.com/uknowsec/SweetPotato.git
